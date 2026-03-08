@@ -843,7 +843,7 @@ header.hero {
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, .06);
   box-shadow: var(--shadow);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('properties/Master%20piece.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('properties/master piece.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1312,4 +1312,5 @@ BOTH-SIDES GLOBAL ANIMATION
     transform: none;
     filter: none;
   }
+
 }
