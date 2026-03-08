@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iftikhar Ali Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">
+        <div class="brand-mark"></div>
+        <span>Iftikhar Ali</span>
+      </a>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="cta">
+        <button class="btn ghost" onclick="scrollToId('projects')">View Work</button>
+        <button class="btn" onclick="scrollToId('contact')">Hire Me</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="fx-layer" id="fxLayer" aria-hidden="true"></div>
+
+  <header class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="reveal stagger" data-animate="stagger">
+        <div class="eyebrow"><span class="dot"></span> Available for freelance, physical work & internships</div>
+        <h1>Connecting you to <br />perfect builds.</h1>
+        <p>
+          I design and develop modern web experiences with neon-clean UI,
+          smooth motion, and performance-first code.
+        </p>
+        <div class="hero-actions">
+          <button class="btn" onclick="scrollToId('projects')">View Projects</button>
+          <button class="btn ghost" onclick="scrollToId('about')">About Me</button>
+        </div>
+      </div>
+      <div class="visual reveal floaty" id="tilt">
+        <div class="neon-rings">
+          <div class="ring r1"></div>
+          <div class="ring r2"></div>
+        </div>
+        <div class="mock">
+          <img class="hero-photo" src="my hero pic.png" alt="">
+          <div class="chip"><b>Portfolio</b> UI</div>
+          <div class="chip"><b>Smooth</b> Motion</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="skills" class="reveal">
+    <div class="container">
+      <h2 class="section-title">Technical Expertise</h2>
+      <p class="subtle">Neon-dark style with premium motion on text, images, and cards.</p>
+      <div class="feature-row stagger" data-animate="stagger" style="margin-top:14px;">
+        <div class="feat flip-card">
+          <div class="flip-inner">
+            <div class="flip-face flip-front">
+              <div class="img"><img src="properties/UI UX.png" alt=""></div>
+              <div class="label">UI / UX Design</div>
+            </div>
+            <div class="flip-face flip-back">
+              <h4>UI / UX Design</h4>
+              <p class="card-text">
+                I create clean, modern interfaces and intuitive user experiences through research,
+                wireframes, prototyping, and visual design.
+              </p>
+              <div class="flip-tags">
+                <span class="tag">Figma</span>
+                <span class="tag">Design System</span>
+                <span class="tag">Prototyping</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feat flip-card">
+          <div class="flip-inner">
+            <div class="flip-face flip-front">
+              <div class="img"><img src="properties/Front end.png" alt=""></div>
+              <div class="label">Front-end development</div>
+            </div>
+            <div class="flip-face flip-back">
+              <h4>Front-end development</h4>
+              <p>
+                I build responsive, modern websites with clean code, smooth UI, and performance-focused design using
+                HTML, CSS, JavaScript, and React.
+              </p>
+              <div class="flip-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">React</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feat flip-card">
+          <div class="flip-inner">
+            <div class="flip-face flip-front">
+              <div class="img"><img src="properties/Cyber security.png" alt=""></div>
+              <div class="label">Cyber Security</div>
+            </div>
+            <div class="flip-face flip-back">
+              <h4>Cyber Security</h4>
+              <p>
+                I help protect systems and data by identifying vulnerabilities, strengthening defenses, and applying
+                security best practices to reduce risk.
+              </p>
+              <div class="flip-tags">
+                <span class="tag">Defenses</span>
+                <span class="tag">Vulnerabilities</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feat flip-card">
+          <div class="flip-inner">
+            <div class="flip-face flip-front">
+              <div class="img"><img src="properties/SEO.png" alt=""></div>
+              <div class="label">SEO performance</div>
+            </div>
+            <div class="flip-face flip-back">
+              <h4>SEO performance</h4>
+              <p>
+                I improve website visibility by optimizing content, technical SEO, and performance to help rank higher
+                and attract more organic traffic.
+              </p>
+              <div class="flip-tags">
+                <span class="tag">Optimization</span>
+                <span class="tag">Technical SEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <div class="container">
+      <div class="stats">
+        <div class="stats-grid stagger" data-animate="stagger">
+          <div class="stat">
+            <div class="num"><span class="count" data-to="50">0</span>K+</div>
+            <div class="cap">Lines shipped</div>
+          </div>
+          <div class="stat">
+            <div class="num"><span class="count" data-to="200">0</span>+</div>
+            <div class="cap">Commits</div>
+          </div>
+          <div class="stat">
+            <div class="num"><span class="count" data-to="100">0</span>%</div>
+            <div class="cap">Client satisfaction</div>
+          </div>
+          <div class="stat">
+            <div class="num"><span class="count" data-to="5">0</span>K+</div>
+            <div class="cap">Hours learning</div>
+          </div>
+        </div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <div class="container">
+      <div class="showcase">
+        <h3 class="reveal" style="opacity:1; transform:none; filter:none; color: white;">Meet My Masterpiece</h3>
+        <div class="float-card" aria-hidden="true">
+          <div class="pill"></div>
+          <div class="pill"></div>
+          <div class="pill"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="reveal">
+    <div class="container">
+      <div class="strip">Explore ›</div>
+      <div style="text-align:center; margin-top: 14px;" class="stagger" data-animate="stagger">
+        <h2 class="section-title" style="margin-bottom:6px;">Featured Projects</h2>
+      </div>
+
+      <div class="grid3 stagger" data-animate="stagger">
+        <article class="card">
+          <div class="thumb"><img src="properties/Ghazzi brands.png" alt="Ghazzi Brands E-commerce Project"
+              class="card-img"></div>
+          <div class="card-body">
+            <h4>Ghazzi Brands</h4>
+            <p>A fully functional thrift store application built with a focus on data integrity and speed. Beyond the
+              aesthetic Web Design, I prioritized Cybersecurity by implementing secure user authentication and encrypted
+              payment gateways. The backend is optimized for rapid inventory updates, while the frontend utilizes
+              SEO-friendly SSR (Server-Side Rendering) to drive organic traffic to featured collections.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb"><img src="properties/Voter finding app.png" alt="Dashboard UI Concept" class="card-img">
+          </div>
+          <div class="card-body">
+            <h4>Voter Finding App</h4>
+            <p>Built to simplify democratic access, this Flutter application allows users to navigate a database of
+              1,800+ voter records instantly. I developed a custom search algorithm to query by Name or CNIC, ensuring
+              that voters in Quetta can find their designated polling stations in seconds. The app features an optimized
+              offline-first architecture, allowing it to remain fully functional in areas with limited internet
+              connectivity.</p>
+            <div class="tags">
+              <span class="tag">React</span><span class="tag">API</span><span class="tag">UI</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="thumb"><img src="properties/Hamkar delivery.png" alt="Dashboard UI Concept" class="card-img">
+          </div>
+          <div class="card-body">
+            <h4>Hamkar Delivery Services</h4>
+            <p>Hamkar is a high-performance delivery platform designed to bridge the gap between businesses and
+              consumers. I developed a streamlined interface that prioritizes real-time shipment tracking and route
+              optimization. By focusing on a 'Partner-First' UI/UX, the platform ensures that both the sender and
+              receiver have full transparency throughout the delivery lifecycle, backed by a secure and scalable backend
+              architecture.</p>
+            <div class="tags">
+              <span class="tag">Motion</span><span class="tag">SEO</span><span class="tag">Deploy</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="reveal">
+    <div class="container">
+      <div class="split">
+        <div class="left stagger" data-animate="stagger">
+          <h3>Design That Moves People</h3>
+          <p>
+            I build digital ecosystems where beauty meets security. By integrating UI/UX excellence with robust
+            cybersecurity practices, I ensure that premium design never comes at the cost of safety. My approach
+            combines the creative edge of modern web design with the strategic depth of SEO, creating high-ranking,
+            high-performance websites that are as resilient as they are visually stunning.
+          </p>
+          <a href="https://wa.me/qr/35ZPZPOHLNGEE1" target="_blank">
+            <button class="btn">Let’s Talk</button>
+          </a>
+        </div>
+        <div class="right">
+          <img src="properties/Design that move people.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:12px;">
+        <div class="subtle" style="opacity:.9;">My trusted tech stack</div>
+      </div>
+      <div class="logos stagger" data-animate="stagger">
+        <div class="logo-item"><span class="mark"></span>HTML</div>
+        <div class="logo-item"><span class="mark"></span>CSS</div>
+        <div class="logo-item"><span class="mark"></span>JavaScript</div>
+        <div class="logo-item"><span class="mark"></span>React</div>
+        <div class="logo-item"><span class="mark"></span>Node</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <div class="container stagger" data-animate="stagger">
+      <h2 class="section-title">Contact</h2>
+      <p class="subtle">Put your email / WhatsApp / LinkedIn here.</p>
+      <div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap;">
+        <a class="btn" href="https://mail.google.com/mail/?view=cm&to=iftikhar.ali.m10@gmail.com" target="_blank">
+          Email Me
+        </a>
+        <a class="btn ghost" href="https://wa.me/qr/35ZPZPOHLNGEE1" target="_blank">
+          WhatsApp
+        </a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/iftikhar-ali-32204638b/" target="_blank">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="reveal">
+    <div class="container">
+      <div class="footer">
+        <div class="foot">
+          <a class="brand" href="#home" style="margin-bottom:10px;">
+            <div class="brand-mark"></div>
+            <span>Iftikhar Ali</span>
+          </a>
+          <div class="subtle" style="font-size:12px;">
+            +923108658469<br />
+            iftikhar.ali.m10@gmail.com
+          </div>
+        </div>
+        <div class="foot">
+          <div class="foot-title">Explore</div>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="foot">
+          <div class="foot-title">Support</div>
+          <a href="#contact">Contact</a>
+          <a href="#skills">Services</a>
+          <a href="#home">Availability</a>
+        </div>
+        <div class="foot">
+          <div class="foot-title">Legal</div>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+      <div class="tiny">
+        <div>© <span id="year"></span> Iftikhar Ali. All rights reserved.</div>
+        <div style="display:flex; gap:12px;">
+          <span>Privacy policy</span>
+          <span>Terms & conditions</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const fxLayer = document.getElementById("fxLayer");
+
+      function smoothRobotScrollTo(targetY, duration = 900) {
+        const startY = window.scrollY;
+        const delta = targetY - startY;
+        const start = performance.now();
+        const ease = (t) => 1 - Math.pow(1 - t, 4);
+
+        return new Promise((resolve) => {
+          function frame(now) {
+            const p = Math.min(1, (now - start) / duration);
+            const y = startY + delta * ease(p);
+            window.scrollTo(0, y);
+            if (p < 1) requestAnimationFrame(frame);
+            else resolve();
+          }
+          requestAnimationFrame(frame);
+        });
+      }
+
+      function getNavOffset() {
+        const nav = document.querySelector(".nav");
+        return (nav?.offsetHeight || 0) + 10;
+      }
+
+      function playFxOn() {
+        fxLayer?.classList.remove("off");
+        fxLayer?.classList.add("on");
+        document.body.classList.add("nav-jump");
+        setTimeout(() => document.body.classList.remove("nav-jump"), 320);
+      }
+
+      function playFxOff() {
+        if (!fxLayer) return;
+        fxLayer.classList.remove("on");
+        fxLayer.classList.add("off");
+        setTimeout(() => fxLayer.classList.remove("off"), 260);
+      }
+
+      function markArrive(section) {
+        if (!section) return;
+        section.classList.add("arrive");
+        setTimeout(() => section.classList.remove("arrive"), 950);
+      }
+
+      window.scrollToId = async function scrollToId(id) {
+        const el = document.getElementById(id);
+        if (!el) return;
+
+        const y = el.getBoundingClientRect().top + window.scrollY - getNavOffset();
+
+        playFxOn();
+        await smoothRobotScrollTo(y, 920);
+        playFxOff();
+        markArrive(el);
+      };
+
+      document.querySelectorAll('a[href^="#"]').forEach((a) => {
+        a.addEventListener("click", (e) => {
+          const href = a.getAttribute("href");
+          if (!href || href === "#") return;
+
+          const id = href.slice(1);
+          const el = document.getElementById(id);
+          if (!el) return;
+
+          e.preventDefault();
+          window.scrollToId(id);
+        });
+      });
+
+      const revealEls = Array.from(document.querySelectorAll(".reveal"));
+      const staggerEls = Array.from(document.querySelectorAll('[data-animate="stagger"]'));
+      const countEls = Array.from(document.querySelectorAll(".count"));
+      const statsBox = document.querySelector(".stats");
+
+      const revealIO = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) entry.target.classList.add("in");
+          else entry.target.classList.remove("in");
+        });
+      }, { threshold: 0.14, rootMargin: "0px 0px -10% 0px" });
+
+      revealEls.forEach((el) => revealIO.observe(el));
+
+      const staggerIO = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) entry.target.classList.add("in");
+          else entry.target.classList.remove("in");
+        });
+      }, { threshold: 0.18, rootMargin: "0px 0px -12% 0px" });
+
+      staggerEls.forEach((el) => staggerIO.observe(el));
+
+      function animateCount(el, to, ms = 900) {
+        const t0 = performance.now();
+        const step = (now) => {
+          const p = Math.min(1, (now - t0) / ms);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(to * eased).toLocaleString();
+          if (p < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+      }
+
+      function resetCounts() {
+        countEls.forEach((el) => (el.textContent = "0"));
+      }
+
+      let statsAnimating = false;
+
+      const statsIO = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            if (statsAnimating) return;
+            statsAnimating = true;
+            countEls.forEach((el) => animateCount(el, Number(el.dataset.to || 0), 950));
+          } else {
+            statsAnimating = false;
+            resetCounts();
+          }
+        });
+      }, { threshold: 0.35, rootMargin: "0px 0px -20% 0px" });
+
+      if (statsBox) statsIO.observe(statsBox);
+
+      window.addEventListener("load", () => {
+        if (!statsBox) return;
+        const r = statsBox.getBoundingClientRect();
+        const visible = r.top < window.innerHeight * 0.75 && r.bottom > 0;
+        if (!visible) resetCounts();
+      });
+
+      const tilt = document.getElementById("tilt");
+      let rect = null;
+
+      function clamp(v, min, max) { return Math.max(min, Math.min(max, v)); }
+
+      tilt?.addEventListener("mousemove", (e) => {
+        rect = rect || tilt.getBoundingClientRect();
+        const px = (e.clientX - rect.left) / rect.width;
+        const py = (e.clientY - rect.top) / rect.height;
+
+        const rx = clamp((0.5 - py) * 12, -10, 10);
+        const ry = clamp((px - 0.5) * 14, -12, 12);
+
+        const rings = tilt.querySelector(".neon-rings");
+        const mock = tilt.querySelector(".mock");
+
+        if (rings) rings.style.transform = `translateZ(30px) translate(${(px - 0.5) * 10}px, ${(py - 0.5) * 10}px)`;
+        if (mock) mock.style.transform = `translateZ(40px) translate(${(px - 0.5) * 14}px, ${(py - 0.5) * 14}px)`;
+
+        tilt.style.transform = `rotateX(${rx}deg) rotateY(${ry}deg) translateY(-2px)`;
+      });
+
+      tilt?.addEventListener("mouseleave", () => {
+        tilt.style.transform = `rotateX(0deg) rotateY(0deg) translateY(0px)`;
+        const rings = tilt.querySelector(".neon-rings");
+        const mock = tilt.querySelector(".mock");
+        if (rings) rings.style.transform = `translateZ(30px)`;
+        if (mock) mock.style.transform = `translateZ(40px)`;
+        rect = null;
+      });
+
+      const yearEl = document.getElementById("year");
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+
+</html>
